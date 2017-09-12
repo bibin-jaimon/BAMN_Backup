@@ -1,0 +1,76 @@
+                      /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btn1file,#btn2file,#btn3file,#btn4file,#btn5file,
+#btn6file,#btn7file,#btn8file,#btn9file,
+#btn1fold,#btn2fold,#btn3fold,#btn4fold,#btn5fold,
+#btn6fold,#btn7fold,#btn8fold,#btn9fold,#destfold,#copy,#reset{
+    -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#listview1,#listview2,#listview3,#listview4,#listview5,
+#listview6,#listview7,#listview8,#listview9{
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+#btn1file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+#btn2file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+#btn3file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+#btn4file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}#btn5file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}#btn6file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}#btn7file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}#btn8file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}#btn9file:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+#btn1fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}
+#reset:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}
+#btn2fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn3fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn4fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn5fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn6fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn7fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn8fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#btn9fold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#destfold:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}#copy:hover{
+	-fx-background-color: derive(-fx-focus-color,30%);
+}
